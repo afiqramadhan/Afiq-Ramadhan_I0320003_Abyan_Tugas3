@@ -3,7 +3,7 @@
 list1 = ['Agung', 'Viandy', 'Jeremia', 'Aurel', 'Agatha', 'Harry', 'Peter', 'Jesica', 'Pulung', 'Haura']
 print("List nama temanku: ", list1)
 
-#Menampilkan nama teman pada list keempat, keenam, dan ketujuh
+#Menampilkan nama teman pada indeks keempat, keenam, dan ketujuh
 print("list[4]: ", list1[4])
 print("list[6:7]: ", list1[6:8])
 

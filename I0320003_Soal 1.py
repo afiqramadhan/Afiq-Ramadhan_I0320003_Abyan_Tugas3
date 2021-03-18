@@ -23,5 +23,5 @@ print('Aku memiliki 2 teman baru, teman-temanku bernama:',list3)
 
 #Menampilkan panjang list serta menyebutkan nama teman
 print("Temanku ada {} orang, yaitu:".format(len(list3)))
-for list in list3:
-    print(list)
+for x in list3:
+    print(x)

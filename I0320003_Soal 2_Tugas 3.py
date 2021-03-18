@@ -15,14 +15,18 @@ print("Makanan kesukaanku adalah", dict['Food'])
 
 #Update Dictionary
 dict = {'Name':'Afiq Ramadhan',
-        'Hobi': 'Main game, Membaca, Menulis',
+        'Hobi': ['Main game','Membaca','Menulis'],
         'Sosial_Media': {
             'Ig' : '@afiq_ramdhan',
             'WA' : '08123456789',
             'Telegram' : '@afiqr_me'},
         'Song' : 'Rex Orange Country-Best Friend, Adele-Rolling In The Deep, Keshi-Skeletons',
-        'Food' : 'Siomay, Selat, Bakso'}
-dict['Hobi'] = 'Main game, Menonton Film, Menulis'
-dict['Sosial_Media'] = 'Ig: @afiq_ramdhan, WA: 08123456789, Line: @ramadhan'
-del dict['Food']
+        'Food' : ['Siomay', 'Selat', 'Bakso']}
+dict['Hobi'] = 'Main game, Menonton Film, Menulis'                              #Menganti hobi Membaca menjadi Menonton Film
+dict['Sosial_Media'] = 'Ig: @afiq_ramdhan, WA: 08123456789, Line: @ramadhan'    #Mengganti Telegram menjadi Line
+del dict['Food'][0:2]
+dict['Hobi_Baru'] = 'Mendengarkan Musik'                                        #Menambahkan hobi baru ke dalam dictionary
+for x,y in dict.items():
+    print(x,y)
+
 
